@@ -1,0 +1,24 @@
+# base settings
+DEBUG = True
+USE_LESS = True
+ADMIN_EMAIL = 'fabio.bocconi@apptecsrl.com'
+
+# Database settings
+DATABASE_URL = 'postgres://user:password@localhost:5432/foobar'
+
+# hosts
+ALLOWED_HOSTS = localhost,127.0.0.1
+
+# sentry logger dsn
+SENTRY_DSN = 'http://foo:bar@dev.barfoo.com:8033/30'
+
+GOOGLE_ANALYTICS_ID = 'UA-foo349349043'
+
+DEFAULT_FROM_MAIL = 'noreply@exmple.com'
+
+
+# Amazon S3 configuration
+USE_S3 = False
+AWS_STORAGE_BUCKET_NAME = ''
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
